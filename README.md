@@ -16,4 +16,4 @@ print(byteCode);
 
 print(byteCode.hex());
 ```
-Veri seti için DataSet_upload rar dosyaları birleştirilebilir.
+Veri seti  DataSet_upload rar dosyaları birleştirilerek elde edilebilir.
