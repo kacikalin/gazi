@@ -17,3 +17,6 @@ print(byteCode);
 print(byteCode.hex());
 ```
 Veri seti  DataSet_upload rar dosyaları birleştirilerek elde edilebilir.
+
+Elipmoc'un iyileştirilmesi için ilk olarak skeleton elde edilmesi için: https://github.com/gsalzer/ethutils/tree/main/doc/skeleton
+kaynağı kullanılabilir.
