@@ -18,7 +18,11 @@ print(byteCode.hex());
 ```
 Veri seti  DataSet_upload rar dosyaları birleştirilerek elde edilebilir.
 
+Bu veri seti için Elipmoc'un sonuçları her bir akıllı sözleşme için elde edilerek veri tabanına yazılmıştır. 
+
 Elipmoc'un iyileştirilmesi için ilk olarak skeleton elde edilmesi için: https://github.com/gsalzer/ethutils/tree/main/doc/skeleton
 kaynağı kullanılabilir.
 
 Ardından gereksiz belleğe yazma işlemlerini kaldıran https://github.com/costa-group/EthIR/tree/master işlemi uygulanabilir. 
+
+Veri setinde bu iki işlem uygulanarak elde edilen bayt kodları için Elipmoc tekrar çalıştırılarak sonuçları çıkarılmıştır.
