@@ -1,7 +1,7 @@
 # Gazi
-Bu projede akıllı sözleşme decompile araçlarının karşılaştırılması için kullanılacak veri seti, kriterler ve sonuçların değerlendirilmesi bulunacaktır.
+In this project, the dataset, the criteria and the evaluation of the results will be used for the comparison of smart contract decompile tools.
 
-Run-time bytecode'u elde etmek için:
+To obtain run-time bytecode:
 
 ```
 urlmainnet=""https://mainnet.infura.io/v3/....";
@@ -16,15 +16,8 @@ print(byteCode);
 
 print(byteCode.hex());
 ```
-Veri seti  DataSet_upload rar dosyaları birleştirilerek elde edilebilir.
+The dataset can be obtained by the DataSet_upload rar files.
 
-Bu veri seti için Elipmoc'un sonuçları her bir akıllı sözleşme için elde edilerek veri tabanına yazılmıştır. 
+For this dataset, the results of Elipmoc were obtained for each smart contract and written to the database. 
 
-Elipmoc'un iyileştirilmesi için ilk olarak skeleton elde edilmesi için: https://github.com/gsalzer/ethutils/tree/main/doc/skeleton
-kaynağı kullanılabilir.
-
-Ardından gereksiz belleğe yazma işlemlerini kaldıran https://github.com/costa-group/EthIR/tree/master işlemi uygulanabilir. 
-
-Veri setinde bu iki işlem uygulanarak elde edilen bayt kodları için Elipmoc tekrar çalıştırılarak sonuçları çıkarılmıştır.
-
-Elipmoc file contains Elipmoc's results.
+Elipmoc rar files contains Elipmoc's results.
