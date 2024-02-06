@@ -26,3 +26,5 @@ kaynağı kullanılabilir.
 Ardından gereksiz belleğe yazma işlemlerini kaldıran https://github.com/costa-group/EthIR/tree/master işlemi uygulanabilir. 
 
 Veri setinde bu iki işlem uygulanarak elde edilen bayt kodları için Elipmoc tekrar çalıştırılarak sonuçları çıkarılmıştır.
+
+Elipmoc file contains Elipmoc's results.
